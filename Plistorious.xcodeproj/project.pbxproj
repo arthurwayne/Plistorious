@@ -1,0 +1,512 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1441FD5D17FA732E008561FE /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1441FD5C17FA732E008561FE /* Cocoa.framework */; };
+		1441FD6717FA732E008561FE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1441FD6517FA732E008561FE /* InfoPlist.strings */; };
+		1441FD6917FA732E008561FE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1441FD6817FA732E008561FE /* main.m */; };
+		1441FD6D17FA732E008561FE /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 1441FD6B17FA732E008561FE /* Credits.rtf */; };
+		1441FD7017FA732E008561FE /* BAVPlistDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 1441FD6F17FA732E008561FE /* BAVPlistDocument.m */; };
+		1441FD7317FA732E008561FE /* BAVPlistDocument.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1441FD7117FA732E008561FE /* BAVPlistDocument.xib */; };
+		1441FD7617FA732F008561FE /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1441FD7417FA732F008561FE /* MainMenu.xib */; };
+		1441FD7817FA732F008561FE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1441FD7717FA732F008561FE /* Images.xcassets */; };
+		1441FD7F17FA732F008561FE /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1441FD7E17FA732F008561FE /* XCTest.framework */; };
+		1441FD8017FA732F008561FE /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1441FD5C17FA732E008561FE /* Cocoa.framework */; };
+		1441FD8817FA732F008561FE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1441FD8617FA732F008561FE /* InfoPlist.strings */; };
+		1441FD8A17FA732F008561FE /* PlistoriousTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1441FD8917FA732F008561FE /* PlistoriousTests.m */; };
+		1441FD9517FA8A77008561FE /* BAVPlistNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 1441FD9417FA8A77008561FE /* BAVPlistNode.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1441FD8117FA732F008561FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1441FD5117FA732E008561FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1441FD5817FA732E008561FE;
+			remoteInfo = Plistorious;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1441FD5917FA732E008561FE /* Plistorious.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Plistorious.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1441FD5C17FA732E008561FE /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		1441FD5F17FA732E008561FE /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		1441FD6017FA732E008561FE /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		1441FD6117FA732E008561FE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1441FD6417FA732E008561FE /* Plistorious-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Plistorious-Info.plist"; sourceTree = "<group>"; };
+		1441FD6617FA732E008561FE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1441FD6817FA732E008561FE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1441FD6A17FA732E008561FE /* Plistorious-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Plistorious-Prefix.pch"; sourceTree = "<group>"; };
+		1441FD6C17FA732E008561FE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		1441FD6E17FA732E008561FE /* BAVPlistDocument.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BAVPlistDocument.h; sourceTree = "<group>"; };
+		1441FD6F17FA732E008561FE /* BAVPlistDocument.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BAVPlistDocument.m; sourceTree = "<group>"; };
+		1441FD7217FA732E008561FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/BAVPlistDocument.xib; sourceTree = "<group>"; };
+		1441FD7517FA732F008561FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		1441FD7717FA732F008561FE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1441FD7D17FA732F008561FE /* PlistoriousTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlistoriousTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1441FD7E17FA732F008561FE /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		1441FD8517FA732F008561FE /* PlistoriousTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PlistoriousTests-Info.plist"; sourceTree = "<group>"; };
+		1441FD8717FA732F008561FE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1441FD8917FA732F008561FE /* PlistoriousTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlistoriousTests.m; sourceTree = "<group>"; };
+		1441FD9317FA8A77008561FE /* BAVPlistNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BAVPlistNode.h; sourceTree = "<group>"; };
+		1441FD9417FA8A77008561FE /* BAVPlistNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BAVPlistNode.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1441FD5617FA732E008561FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1441FD5D17FA732E008561FE /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1441FD7A17FA732F008561FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1441FD8017FA732F008561FE /* Cocoa.framework in Frameworks */,
+				1441FD7F17FA732F008561FE /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1441FD5017FA732E008561FE = {
+			isa = PBXGroup;
+			children = (
+				1441FD6217FA732E008561FE /* Plistorious */,
+				1441FD8317FA732F008561FE /* PlistoriousTests */,
+				1441FD5B17FA732E008561FE /* Frameworks */,
+				1441FD5A17FA732E008561FE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1441FD5A17FA732E008561FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1441FD5917FA732E008561FE /* Plistorious.app */,
+				1441FD7D17FA732F008561FE /* PlistoriousTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1441FD5B17FA732E008561FE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1441FD5C17FA732E008561FE /* Cocoa.framework */,
+				1441FD7E17FA732F008561FE /* XCTest.framework */,
+				1441FD5E17FA732E008561FE /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1441FD5E17FA732E008561FE /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1441FD5F17FA732E008561FE /* AppKit.framework */,
+				1441FD6017FA732E008561FE /* CoreData.framework */,
+				1441FD6117FA732E008561FE /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		1441FD6217FA732E008561FE /* Plistorious */ = {
+			isa = PBXGroup;
+			children = (
+				1441FD6E17FA732E008561FE /* BAVPlistDocument.h */,
+				1441FD6F17FA732E008561FE /* BAVPlistDocument.m */,
+				1441FD9317FA8A77008561FE /* BAVPlistNode.h */,
+				1441FD9417FA8A77008561FE /* BAVPlistNode.m */,
+				1441FD7117FA732E008561FE /* BAVPlistDocument.xib */,
+				1441FD7417FA732F008561FE /* MainMenu.xib */,
+				1441FD7717FA732F008561FE /* Images.xcassets */,
+				1441FD6317FA732E008561FE /* Supporting Files */,
+			);
+			path = Plistorious;
+			sourceTree = "<group>";
+		};
+		1441FD6317FA732E008561FE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1441FD6417FA732E008561FE /* Plistorious-Info.plist */,
+				1441FD6517FA732E008561FE /* InfoPlist.strings */,
+				1441FD6817FA732E008561FE /* main.m */,
+				1441FD6A17FA732E008561FE /* Plistorious-Prefix.pch */,
+				1441FD6B17FA732E008561FE /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1441FD8317FA732F008561FE /* PlistoriousTests */ = {
+			isa = PBXGroup;
+			children = (
+				1441FD8917FA732F008561FE /* PlistoriousTests.m */,
+				1441FD8417FA732F008561FE /* Supporting Files */,
+			);
+			path = PlistoriousTests;
+			sourceTree = "<group>";
+		};
+		1441FD8417FA732F008561FE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1441FD8517FA732F008561FE /* PlistoriousTests-Info.plist */,
+				1441FD8617FA732F008561FE /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1441FD5817FA732E008561FE /* Plistorious */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1441FD8D17FA732F008561FE /* Build configuration list for PBXNativeTarget "Plistorious" */;
+			buildPhases = (
+				1441FD5517FA732E008561FE /* Sources */,
+				1441FD5617FA732E008561FE /* Frameworks */,
+				1441FD5717FA732E008561FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Plistorious;
+			productName = Plistorious;
+			productReference = 1441FD5917FA732E008561FE /* Plistorious.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1441FD7C17FA732F008561FE /* PlistoriousTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1441FD9017FA732F008561FE /* Build configuration list for PBXNativeTarget "PlistoriousTests" */;
+			buildPhases = (
+				1441FD7917FA732F008561FE /* Sources */,
+				1441FD7A17FA732F008561FE /* Frameworks */,
+				1441FD7B17FA732F008561FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1441FD8217FA732F008561FE /* PBXTargetDependency */,
+			);
+			name = PlistoriousTests;
+			productName = PlistoriousTests;
+			productReference = 1441FD7D17FA732F008561FE /* PlistoriousTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1441FD5117FA732E008561FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BAV;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "No Organisation";
+				TargetAttributes = {
+					1441FD7C17FA732F008561FE = {
+						TestTargetID = 1441FD5817FA732E008561FE;
+					};
+				};
+			};
+			buildConfigurationList = 1441FD5417FA732E008561FE /* Build configuration list for PBXProject "Plistorious" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1441FD5017FA732E008561FE;
+			productRefGroup = 1441FD5A17FA732E008561FE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1441FD5817FA732E008561FE /* Plistorious */,
+				1441FD7C17FA732F008561FE /* PlistoriousTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1441FD5717FA732E008561FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1441FD7317FA732E008561FE /* BAVPlistDocument.xib in Resources */,
+				1441FD7817FA732F008561FE /* Images.xcassets in Resources */,
+				1441FD6717FA732E008561FE /* InfoPlist.strings in Resources */,
+				1441FD6D17FA732E008561FE /* Credits.rtf in Resources */,
+				1441FD7617FA732F008561FE /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1441FD7B17FA732F008561FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1441FD8817FA732F008561FE /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1441FD5517FA732E008561FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1441FD9517FA8A77008561FE /* BAVPlistNode.m in Sources */,
+				1441FD7017FA732E008561FE /* BAVPlistDocument.m in Sources */,
+				1441FD6917FA732E008561FE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1441FD7917FA732F008561FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1441FD8A17FA732F008561FE /* PlistoriousTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1441FD8217FA732F008561FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1441FD5817FA732E008561FE /* Plistorious */;
+			targetProxy = 1441FD8117FA732F008561FE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1441FD6517FA732E008561FE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1441FD6617FA732E008561FE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1441FD6B17FA732E008561FE /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1441FD6C17FA732E008561FE /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		1441FD7117FA732E008561FE /* BAVPlistDocument.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1441FD7217FA732E008561FE /* Base */,
+			);
+			name = BAVPlistDocument.xib;
+			sourceTree = "<group>";
+		};
+		1441FD7417FA732F008561FE /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1441FD7517FA732F008561FE /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		1441FD8617FA732F008561FE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1441FD8717FA732F008561FE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1441FD8B17FA732F008561FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		1441FD8C17FA732F008561FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		1441FD8E17FA732F008561FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_IMPLICIT_SIGN_CONVERSION = NO;
+				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Plistorious/Plistorious-Prefix.pch";
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
+				GCC_WARN_SHADOW = YES;
+				GCC_WARN_SIGN_COMPARE = YES;
+				INFOPLIST_FILE = "Plistorious/Plistorious-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1441FD8F17FA732F008561FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_IMPLICIT_SIGN_CONVERSION = NO;
+				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Plistorious/Plistorious-Prefix.pch";
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
+				GCC_WARN_SHADOW = YES;
+				GCC_WARN_SIGN_COMPARE = YES;
+				INFOPLIST_FILE = "Plistorious/Plistorious-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		1441FD9117FA732F008561FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Plistorious.app/Contents/MacOS/Plistorious";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Plistorious/Plistorious-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "PlistoriousTests/PlistoriousTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		1441FD9217FA732F008561FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Plistorious.app/Contents/MacOS/Plistorious";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Plistorious/Plistorious-Prefix.pch";
+				INFOPLIST_FILE = "PlistoriousTests/PlistoriousTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1441FD5417FA732E008561FE /* Build configuration list for PBXProject "Plistorious" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1441FD8B17FA732F008561FE /* Debug */,
+				1441FD8C17FA732F008561FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1441FD8D17FA732F008561FE /* Build configuration list for PBXNativeTarget "Plistorious" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1441FD8E17FA732F008561FE /* Debug */,
+				1441FD8F17FA732F008561FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1441FD9017FA732F008561FE /* Build configuration list for PBXNativeTarget "PlistoriousTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1441FD9117FA732F008561FE /* Debug */,
+				1441FD9217FA732F008561FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1441FD5117FA732E008561FE /* Project object */;
+}
