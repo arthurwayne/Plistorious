@@ -33,12 +33,14 @@
 
 - (BOOL)readFromData:(NSData *)data ofType:(NSString *)typeName error:(NSError **)outError
 {
-    NSObject *plist = [NSPropertyListSerialization propertyListWithData:data options:NSPropertyListImmutable format:NULL error:outError];
-    if (plist == nil)
+    id rootObject = ([typeName isEqualToString:@"PlistDocumentType"] ?
+                     [NSPropertyListSerialization propertyListWithData:data options:NSPropertyListImmutable format:NULL error:outError] :
+                     [NSJSONSerialization JSONObjectWithData:data options:0 error:outError]);
+
+    if (rootObject == nil)
         return false;
 
-    self.rootNode = [BAVPlistNode plistNodeFromObject:plist key:@"Root"];
-
+    self.rootNode = [BAVPlistNode plistNodeFromObject:rootObject key:@"Root"];
     return true;
 }
 
